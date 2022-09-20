@@ -1,0 +1,79 @@
+p.box {
+  height: 28vh;
+  width: 10vw;
+  text-align: center;
+  border-radius: 0.4em;
+  border: 1px solid grey;
+  word-wrap: break-word;
+  font-size: 90%;
+}
+
+p.player_one {
+  height: 28vh;
+  width: 10vw;
+  background-color: #00DCDC;
+}
+
+p.player_two {
+}
+
+p.player_turn {
+  outline: none;
+
+  padding-top: 10vh;
+  font-size: 170%;
+  font-weight: bold;
+  margin: 0;
+}
+
+p.hide {
+  visibility: hidden;
+}
+
+.player_box {
+  outline: 1px grey solid;
+}
+.player-one-text {
+  color: #00DCDC;
+}
+.player-two-text {
+  color: #FF3232;
+}
+
+div.form-wrapper {
+  padding: 0.5em;
+}
+
+h4 {
+  margin-top: 0.2em;
+  margin-bottom: 0.05em;
+}
+
+.progress-container {
+  padding-top: 0.25em;
+}
+div.progress-bar {
+  background: #bada55;
+  width: 0%;
+  height: 1em;
+  border-radius: 0.4em;
+}
+
+input#agent_speed {
+  width: 50%;
+}
+
+.grid-divide-7 {
+  display: grid;
+  grid-template-columns: 14% 14% 14% 14% 14% 14% 14%
+}
+
+.grid-middle{
+  display: grid;
+  grid-template-columns: 14%;
+}
+
+.grid-fill{
+  display: grid;
+  grid-template-columns: 1%;
+}
